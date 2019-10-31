@@ -40,7 +40,7 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // Declare "someVariable" in way so that the declaration is NOT hoisted.
             // ✏️ ADD CODE HERE ✏️
-              const somevariable =undefined;
+            const somevariable=undefined;
             ////////////////////////////////////////////////////////////////////
 
             expect(someVariable).to.equal(undefined);
@@ -135,7 +135,7 @@ describe("basics", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-
+         const object ={someproperty : 1};
             ////////////////////////////////////////////////////////////////////
 
             expect(object instanceof Object).to.equal(true);
