@@ -310,10 +310,10 @@ describe("basics", function() {
             ////////////////////////////////////////////////////////////////////
             // Can you find a value that is typeof "object" but also casts to `false`?
             // ✏️ ADD CODE HERE ✏️
-
+            const falsyThing = null;
             ////////////////////////////////////////////////////////////////////
 
-            expect(typeof falsyThing).to.equal("object");
+             expect(typeof falsyThing).to.equal("object");
             if (falsyThing) {
                 throw new Error(
                     "if() has been executed: falsyThing is not falsy."
