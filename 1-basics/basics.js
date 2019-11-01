@@ -136,7 +136,7 @@ describe("basics", function() {
         it("should run without errors", function() {
             ////////////////////////////////////////////////////////////////////
             // ✏️ ADD CODE HERE ✏️
-            object.someProperty = undefined;
+            const object = {someProperty : 1};
             ////////////////////////////////////////////////////////////////////
 
             expect(object instanceof Object).to.equal(true);
